@@ -56,13 +56,13 @@ const Leadership = () => {
         {/* Header */}
         <div data-aos="fade-up" className="mb-20 text-center">
           <div className="inline-block border border-white/20 rounded-full px-5 py-1.5 text-sm text-white/60 font-bold mb-6 shadow-sm bg-white/5 backdrop-blur-sm">
-            Activities
+            Education & Credentials
           </div>
           <h2 className="text-4xl md:text-5xl font-black text-white tracking-tight mb-4 uppercase">
-            Leadership & Engagement
+            Academic & Certifications
           </h2>
           <p className="text-white/50 text-base md:text-lg max-w-lg mx-auto leading-relaxed">
-            Coordinating events, leading team operations, and participating in tech summits.
+            Formal engineering degree and industry-recognized certifications in Machine Learning, Generative AI, Python, and Data Science.
           </p>
         </div>
 

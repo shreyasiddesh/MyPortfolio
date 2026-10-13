@@ -12,7 +12,7 @@ const InternshipCard = ({ intern, index }) => (
           {intern.duration}
         </span>
         <span className="bg-white/10 text-white text-[10px] font-black tracking-widest uppercase py-1 px-3 rounded-full border border-white/15">
-          Internship
+          {intern.badge || 'Internship'}
         </span>
       </div>
       <h3 className="text-white text-2xl font-black mb-1 tracking-tight">
@@ -22,9 +22,9 @@ const InternshipCard = ({ intern, index }) => (
         {intern.organization}
       </p>
 
-      {/* Skills gained */}
+      {/* Skills gained / Accomplishments */}
       <div className="mb-6">
-        <h4 className="text-white/60 text-xs font-bold uppercase tracking-wider mb-2">Skills Gained:</h4>
+        <h4 className="text-white/60 text-xs font-bold uppercase tracking-wider mb-2">Key Contributions:</h4>
         <ul className="text-white/90 text-sm font-medium space-y-1 pl-4 list-disc">
           {intern.skills.map((skill, i) => (
             <li key={i}>{skill}</li>
